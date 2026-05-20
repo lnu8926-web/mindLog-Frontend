@@ -54,7 +54,7 @@ const nextConfig: NextConfig = {
 
   // 환경변수 검증 (빌드 시 필수 환경변수 확인)
   env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
+    NEXT_PUBLIC_API_URL: process.env.FRONTEND_API_URL,
   },
 
   // API 프록시 설정 (middleware 대신 rewrites 사용)
